@@ -1,0 +1,174 @@
+body {
+
+	margin: 0;
+	background-attachment: fixed;
+	background-image: url(https://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg);
+}
+
+.main{
+
+		background-color: #a4b0be;
+		max-height: 1000px;
+		height: 700px;
+		width: 900px;
+		margin: auto;
+		margin-top: 30px;
+		
+
+}
+
+.header{
+
+		background-color: #1289A7;
+		height: 50px;
+		width: 900px;
+		text-align: center;
+		color: white;
+		background-image: url(https://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png);
+		background-repeat: no-repeat;
+		background-size: 35px 35px;
+		background-position: left;
+
+		
+}
+
+.b2 {
+
+	overflow: hidden;
+}
+
+
+.b2 .y1 {
+
+			height: 620px;
+			width: 30%;
+			background-color: red;
+			float: left;
+			overflow: hidden;
+
+
+			
+}
+
+.b2 .y1 .y11{
+			height: 310px;
+			width: 100%;
+			background-color: black;
+			
+		
+			
+
+}
+
+.b2 .y1 .y22 {
+
+			height: 310px;
+			width: 100%;
+			background-color: blue;
+
+			
+			
+
+}
+
+
+
+
+
+
+.b2 .blast .ash {
+
+		background-color: #A3CB38;
+		height:120px;
+		width: 35%;
+		float: left;
+		overflow: hidden;
+		
+
+
+}
+
+.b2 .blast .gr {
+
+		background-color: #FFC312;
+		height:120px;
+		width: 35%;
+		overflow: hidden;
+		float: left;
+
+}
+
+.b2 .blast .mati {
+
+		background-color: #079992;
+		height:125px;
+		width: 70%;
+		overflow: hidden;
+		
+		
+
+}
+
+.b2 .last .last1 {
+
+		background-color: #dfe6e9;
+		height:375px;
+		width: 23.33%;
+		overflow: hidden;
+		float: left;
+		
+		
+		
+
+}
+
+
+.b2 .last .last2 {
+
+		background-color: #b2bec3;
+		height:375px;
+		width: 23.333%;
+		overflow: hidden;
+		float: left;
+
+		
+
+}
+
+.b2 .last .last3 {
+
+		background-color: #636e72;
+		height:375px;
+		width: 23.339%;
+		overflow: hidden;
+		text-align: center;
+		color: White;
+		background-image: url(https://img.freepik.com/free-vector/thank-you-lettering_1262-6963.jpg?size=626&ext=jpg);
+		background-size: 120px 70px;
+		background-repeat: no-repeat;
+		background-position: bottom;
+
+		
+
+}
+
+.footer{
+
+		background-color: #1289A7;
+		height: 50px;
+		width: 900px;
+		text-align: center;
+		color: white;
+
+		
+}
+
+
+
+
+
+
+
+
+
+
