@@ -1,0 +1,154 @@
+
+body {
+
+	margin: 0;
+	background-attachment: fixed;
+	background-image: url(https://www.elsetge.cat/myimg/f/14-141288_high-resolution-hd-website-background.jpg);
+}
+
+.main {
+
+	background-color: black;
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.Header{
+
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	background-image: url(https://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png);
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+	background-position: left;
+
+}
+
+
+.bodydown{
+
+	background-color: blue;
+	height: 720px;
+	width: 100%;
+
+
+	
+}
+
+.body1{
+
+	background-color: green;
+	height: 720px;
+	width: 30%;
+	float: left;
+
+
+
+}
+
+
+.body1-1 {
+
+	background-color: #00cec9;
+	height: 360px;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	
+
+}
+
+
+.body1-2 {
+
+	background-color: #badc58;
+	height: 375px;
+	overflow: hidden;
+
+	
+	
+	
+
+
+}
+
+
+.body2-1 {
+
+	background-color: #00b894;
+	height: 100px;
+	width: 35%;
+	float: left;
+
+
+	
+	
+
+}
+
+.body2-2 {
+
+	background-color: #0984e3;
+	height: 100px;
+	width: 35%;
+	overflow: hidden;
+	
+	
+
+}
+
+
+.body-2nd {
+
+	background-color: #686de0;
+	height: 100px;
+	width: 100%;
+
+}
+
+.body3-1{
+
+	background-color: white;
+	height: 518.91px;
+	width: 23%;
+	overflow: hidden;
+	float: left;
+
+}
+
+.body3-2{
+
+	background-color: #dfe6e9;
+	height: 518.91px;
+	width: 24%;
+	overflow: hidden;
+	float: left;
+
+
+}
+
+.body3-3{
+
+	background-color: #b2bec3;
+	height: 518.91px;
+	width: 23%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+
+}
+
+
+.footer {
+
+	background-color: white;
+	height: 60px;
+	width: 1200px;
+	text-align: center;
+}
+
