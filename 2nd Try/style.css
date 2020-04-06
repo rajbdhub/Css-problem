@@ -70,11 +70,6 @@ body {
 	height: 375px;
 	overflow: hidden;
 
-	
-	
-	
-
-
 }
 
 
@@ -86,8 +81,6 @@ body {
 	float: left;
 
 
-	
-	
 
 }
 
@@ -151,4 +144,19 @@ body {
 	width: 1200px;
 	text-align: center;
 }
+
+.aline a {
+	text-decoration: none;
+	background-color: #6c5ce7;
+	padding-left: 3px;
+	text-align: center;
+	margin-left: 10px;
+	color: white;
+	border-radius: 5px;
+	font-family: 
+
+
+	
+}
+
 
