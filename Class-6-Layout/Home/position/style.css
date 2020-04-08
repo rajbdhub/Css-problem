@@ -1,0 +1,164 @@
+body {
+
+	margin: 0;
+	background-image: url(https://i.pinimg.com/originals/95/14/94/951494e942ab734f98a9d409e57fec61.jpg);
+	height: 1000px;
+	background-attachment: fixed;
+	
+
+	
+	
+}
+
+.back {
+
+	margin: 20px 0 0 210px;
+}
+
+.back a {
+
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	
+}
+
+
+
+.square h2 {
+
+	color: white;
+}
+
+.mainbody {
+
+	background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+	height: 900px;
+	width: 1000px;
+	margin: 70px auto;
+	border: 1px solid green;
+	box-shadow: 0px 0px 20px 10px #78e08f;
+}
+
+
+
+.position-main {
+
+	background: #0abde3;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	border: 10px ridge;
+	border-right-color: red;
+	border-left-color: red;
+	border-top-color: black;
+	border-bottom-color: black;
+	box-shadow: 0px 0px 10px 20px pink;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+
+}
+
+h1 {
+
+	text-align: center;
+	padding-top: 50px;
+	color: #e056fd;
+}
+.position2 {
+
+	background: #f368e0;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 100%;
+	right: 100%;
+	border: 5px double pink;
+	border-radius: 11px;
+
+}
+
+ h2{
+
+	text-align: center;
+	color: #be2edd;
+
+}
+
+.position3 {
+
+	background: #ff9ff3;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	border: 5px double pink;
+	border-radius: 11px;
+
+}
+
+.position4 {
+
+	background: #feca57;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 100%;
+	right: 100%;
+	border: 5px double pink;
+	border-radius: 11px;
+
+}
+
+.position5 {
+
+	background: #ff9f43;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 100%;
+	left: 100%;
+	border: 5px double pink;
+	border-radius:11px;
+
+}
+
+.br2{
+
+	height: 30px;
+	width: 700px;
+	border: 1px solid #95afc0;
+	margin: auto;
+	height: 100px;
+	margin-top: 450px;
+	border-radius: 6px;
+	text-align: center;
+	background-color: #0abde3;
+
+	-webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.br2 h3{
+
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+body {
+
+	margin: 0;
+	background-color: #dcdde1;
+	height: 1000px;
+	background-attachment: fixed;
+	
+
+	
+	
+}
+
+.back {
+
+	margin: 20px 0 0 210px;
+}
+
+.back a {
+
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	
+}
+
+
+.field {
+
+		margin-top: 100px;
+
+}
+
+.field a {
+
+		margin: 20px 0 20px 60px;
+		padding: 0 15px 5px 15px;
+		background-color: #353b48;
+
+}
+
+.tb {
+
+	
+	
+	background-color: white;
+	padding: 15px;
+	margin: 100px;
+	box-shadow: 0px 0px 7px 4px #e6e6e6;
+	text-align: center;
+	width: 700px;
+
+}
+
+
+
+.si h1 {
+		
+
+	
+	border-bottom: 5px solid #40739e;
+	display: inline-block;
+	text-align: center;
+
+
+}
+
+.tb table {
+
+	
+	text-align: center;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #7f8fa6;
+	
+}
+
+
+
+
+.tb table tr td,.tb table tr th {
+
+	
+	
+	border: 1px solid #dcdde1;
+	height: 30px;
+	
+}
+
+.tb table tr th {
+
+	background-color: #8c7ae6;
+
+}
+
+.tb table tr:nth-child(odd) {
+
+	background-color: #4cd137;
+}
+
+
+.tb table tr:hover {
+
+	background-color: #f5f6fa;
+}
+
+
+
+
