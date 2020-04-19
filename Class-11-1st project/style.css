@@ -1,0 +1,145 @@
+body{
+
+	margin: 0;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/proxy/yxOgVCH7bpro9IXiC8tLzGfvhxb-Bbjbny5evSlSWaBfmRH9pi3-sDe7_bhPkdh31Q1JkNskyOuAk3D72gG943Iy_mFjwIPyBLMHsQ-pjtO4Cq8vFdDTr9utR2vILA);
+
+}
+
+
+.triangle1 {
+	height: 0;
+	width: 0;
+	border-bottom: 100px solid #FFF;
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	margin: auto;
+	position: relative;
+	cursor: pointer;
+
+	
+}
+
+.main-123 {
+	margin-top: 285px;
+}
+
+.triangle2 {
+	height: 0;
+	width: 0;
+	border-top: 100px solid #FFF;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	margin: auto;
+	cursor: pointer;
+	
+}
+
+.little-right {
+	height: 0;
+	width: 0;
+	border-right: 50px solid #FFF;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	position: absolute;
+	top: 51%;
+	right: 38%;
+	transform: translate(-50%, -50%);
+	//display: none;
+	transition: 1s;
+	
+	
+}
+
+.little-left {
+	height: 0;
+	width: 0;
+	border-left: 50px solid #FFF;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	position: absolute;
+	top: 51%;
+	left: 41.5%;
+	transform: translate(-50%, -50%);
+	//display: none;
+	transition: 1s;
+}
+
+.little-top {
+	height: 0;
+	width: 0;
+	border-top: 50px solid #FFF;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	//display: none;
+	transition: 1s;
+}
+
+.little-bottom {
+	height: 0;
+	width: 0;
+	border-bottom: 50px solid #FFF;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	//display: none;
+	transition: 1s;
+}
+
+
+.test:hover .little-bottom {
+	border-bottom: 50px solid #ff3838;
+	top: 67.5%;
+	left: 50%;
+}
+
+.test:hover .little-top {
+	
+	border-top: 50px solid #1B9CFC;
+	top: 34.5%;
+	left: 50%;
+}
+
+
+.test:hover .little-left {
+	border-left: 50px solid #ffb8b8;
+	top: 51%;
+	left: 42.8%;
+}
+
+.test:hover .little-right {
+	border-right: 50px solid #32ff7e;
+	top: 51%;
+	right: 39.3%;
+}
+
+.main-123:hover .triangle1 {
+	border-bottom: 100px solid #ff7f50;
+	
+}
+
+
+.main-123:hover .triangle2 {
+	border-top: 100px solid #ff7f50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
