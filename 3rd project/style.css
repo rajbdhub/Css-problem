@@ -1,0 +1,192 @@
+body{
+
+	margin: 0;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/proxy/yxOgVCH7bpro9IXiC8tLzGfvhxb-Bbjbny5evSlSWaBfmRH9pi3-sDe7_bhPkdh31Q1JkNskyOuAk3D72gG943Iy_mFjwIPyBLMHsQ-pjtO4Cq8vFdDTr9utR2vILA);
+
+}
+
+.square {
+	height: 200px;
+	width: 400px;
+	background-color: green;
+	margin: 100px auto 0;
+	position: relative;
+	border-radius: 3px;
+	visibility: inherit;
+	position: relative;
+	opacity: 0;
+	transition: 2s;
+}
+
+.para p {
+	height: 30px;
+	width: 200px;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+	background-color: #3c40c6;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid #FFF;
+	position: absolute;
+	top: 20%;
+	left: 42%;
+	z-index: 999;
+}
+
+
+.round {
+	height: 125px;
+	width: 125px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 18%;
+	left: 90%;
+	transition: 2s;
+	opacity: 0;
+	visibility: inherit;
+}
+
+.stick {
+	height: 500px;
+	width: 15px;
+	background-color: #DCB484;
+	position: absolute;
+	bottom: 22%;
+	left: 4%;
+	opacity: 0;
+	transition: 2s;
+	visibility: inherit; 
+}
+
+.main:hover .round {
+	top: 18%;
+	left: 45%;
+}
+
+.triangle {
+	height: 0;
+	width: 0;
+	border-bottom: 20px solid #DCB484;
+	border-right: 12px solid transparent;
+	border-left: 12px solid transparent;
+	position: absolute;
+	left: 33.7%;
+	top: 1.5%;
+	visibility: inherit;
+	opacity: 0;
+	transition: 2s;
+}
+
+.foundation1 {
+	height: 30px;
+	width: 170px;
+	background-color: #F8EFBA;
+	position: absolute;
+	left: 28.5%;
+	bottom: 5%;
+	border-radius: 5px;
+	transition: 2s;
+	opacity: 0;
+	visibility: inherit;
+}
+
+.foundation2 {
+	height: 30px;
+	width: 210px;
+	background-color: #F8EFBA;
+	position: absolute;
+	left: 80%;
+	bottom: 13.7%;
+	border-radius: 5px;
+	transition: 2s;
+	opacity: 0;
+	visibility: inherit;
+}
+
+.foundation3 {
+	height: 30px;
+	width: 270px;
+	background-color: #F8EFBA;
+	position: absolute;
+	left: 24.5%;
+	top: 80%;
+	border-radius: 5px;
+	transition: 2s;
+	opacity: 0;
+	visibility: inherit;
+}
+
+
+.main:hover .round {
+	top: 18%;
+	left: 45%;
+	visibility: visible;
+	opacity: 1;
+} 
+
+.main:hover .square {
+	display: block;
+	opacity: 1;
+}
+
+.main:hover .para p {
+	display: none;
+}
+
+.main:hover .triangle {
+	visibility: visible;
+	opacity: 1;
+	left: 33.7%;
+	top: 9.5%;
+}
+
+.main:hover .stick {
+	bottom: 22%;
+	left: 34%; 
+	visibility: visible;
+	opacity: 1;
+}
+
+.main:hover .foundation1 {
+	visibility: visible;
+	opacity: 1;
+	left: 28.5%;
+	bottom: 18%;
+}
+
+.main:hover .foundation2 {
+	visibility: visible;
+	opacity: 1;
+	left: 27%;
+	bottom: 13.7%;
+}
+	
+.main:hover .foundation3 {
+	visibility: visible;
+	opacity: 1;
+	left: 24.5%;
+	top: 86.7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
