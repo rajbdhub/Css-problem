@@ -10,13 +10,14 @@ body{
 	height: 200px;
 	width: 400px;
 	background-color: green;
-	margin: 100px auto 0;
+	margin: 100px auto 0px;
 	position: relative;
 	border-radius: 3px;
 	visibility: inherit;
 	position: relative;
 	opacity: 0;
 	transition: 2s;
+	margin-left: 35%;
 }
 
 .para p {
@@ -28,12 +29,12 @@ body{
 	padding: 10px;
 	background-color: #3c40c6;
 	border-radius: 10px;
-	cursor: pointer;
 	border: 2px solid #FFF;
 	position: absolute;
 	top: 20%;
 	left: 42%;
 	z-index: 999;
+	cursor: pointer;
 }
 
 
@@ -129,7 +130,7 @@ body{
 } 
 
 .main:hover .square {
-	display: block;
+	visibility: visible;
 	opacity: 1;
 }
 
