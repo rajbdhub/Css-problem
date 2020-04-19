@@ -1,0 +1,62 @@
+body{
+
+	margin: 0;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-color: #dfe6e9;
+}
+
+
+.triangel-main {
+	height: 150px;
+	width: 150px;
+	background-color: #009432;
+	margin: 280px auto 0;
+	border-radius: 50%;
+	position: relative;
+}
+
+.triangel-main:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 50px;
+	width: 50px;
+	background-color: #4834d4;
+	//margin: 280px auto 0;
+	border-radius: 50%;
+	position: absolute;
+	right: 100%;
+	top: 100%;
+	transition: 2s;
+}
+
+.triangel-main:before {
+	content: "";
+	display: block;
+	clear: both;
+	height: 50px;
+	width: 50px;
+	background-color: #4cd137;
+	//margin: 280px auto 0;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 100%;
+	left: 100%;
+	transition: 2s;
+}
+
+
+.triangel-main:hover:after {
+	right: -33%;
+	top: -34%;
+	background-color: #e056fd;
+}
+
+.triangel-main:hover:before {
+	bottom: -33%;
+	left: -33%;
+	background-color: #eb4d4b;
+}
+
+
+
