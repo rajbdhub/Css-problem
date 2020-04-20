@@ -1,0 +1,95 @@
+body{
+
+	margin: 0;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container .mar {
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,1,10,0.5);
+}
+
+.pricing {
+	padding: 90px 0;
+	background-color: #f5f5f5;
+}
+
+.price-table {
+	text-align: center;
+	background-color: #FFF;
+	border-radius: 30px;
+	box-shadow: 0 0 40px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+
+.price-table .price-head {
+	padding: 40px;
+	background: linear-gradient(45deg, #f39c12, #3498db);
+	color: #FFF;
+	border-radius: 0 0 90% 50%;
+}
+
+.price-table .price-head h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.price-table .price-head h4 {
+	font-size: 20px;
+}
+
+.price-table .price-content {
+	padding: 25px 0 15px;
+	text-transform: uppercase;
+}
+
+.price-table .price-content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.price-table .price-content ul li {
+	padding: 8px 0;
+	color: #777;
+	transition: .30s;
+
+}
+
+.price-table .price-buttom {
+	padding-bottom: 20px;
+
+}
+
+.price-table .price-buttom a {
+	background: linear-gradient(45deg, #f39c12, #3498db);
+	border-radius: 30px;
+	padding: 5px 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.price-table .price-content ul li:hover {
+	border-right: 15px solid #dfe6e9;
+	border-left: 15px solid #dfe6e9;
+	border-radius: 50% 50%;
+	font-size: 17px;
+	transition: .30s;
+}
+
+.price-table .price-buttom:hover a {
+	background: linear-gradient(45deg, #6c5ce7, #636e72);
+}
+
+.price-head:hover h4 {
+	font-size: 30px;
+}
+
+.price-head:hover h2 {
+	font-size: 20px;
+}
