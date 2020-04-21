@@ -9,7 +9,6 @@ body{
 	font-weight: bold;
 	font-size: 30px;
 	color: rgba(0,1,10,0.5);
-	margin-bottom: 20px;
 }
 
 .pricing {
@@ -23,10 +22,6 @@ body{
 	border-radius: 30px;
 	box-shadow: 0 0 40px rgba(0,0,0,0.5);
 	overflow: hidden;
-}
-
-.col-sm-4:nth-child(2) .price-table {
-	transform: scale(1.1);
 }
 
 .price-table .price-head {
@@ -80,8 +75,8 @@ body{
 }
 
 .price-table .price-content ul li:hover {
-	border-right: 10px solid #BE9B4A;
-	border-left: 10px solid #BE9B4A;
+	border-right: 15px solid #dfe6e9;
+	border-left: 15px solid #dfe6e9;
 	border-radius: 50% 50%;
 	font-size: 17px;
 	transition: .30s;
@@ -98,41 +93,3 @@ body{
 .price-head:hover h2 {
 	font-size: 20px;
 }
-
-.yt {
-	display: flex;
-	cursor: pointer;
-}
-
-.you1 {
-
-	height: 30px;
-	width: 60px;
-	background-color: #ff2a05;
-	border-radius: 20% 20% 20% 20%;
-	position: relative;
-}
-
-.you1:before {
-	border-left: 15px solid #FFF;
-	border-top: 8px solid transparent;
-	border-bottom: 8px solid transparent;
-	position: absolute;
-	top: 7px;
-	right: 20px;
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.yt span {
-	margin: 5px 4px;
-	font-weight: bold;
-	line-height: 20px;
-
-
-}
-
-
-
-
