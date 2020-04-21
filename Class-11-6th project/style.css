@@ -1,0 +1,76 @@
+
+.service-area {
+	padding: 90px 0;
+	background-color: #f1f2f6;
+}
+
+.servie-box {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px #bdc3c7;
+	overflow: hidden;
+	padding: 0 20px;
+	height: 400px;
+	text-align: center; 
+}
+
+.servie-box .servie-icon {
+	background: linear-gradient(to top, #6c5ce7, #00b894);
+	border-radius: 50%;
+	border: 2px solid #00b894;
+	border-top: 10px solid #00b894;
+	height: 100px;
+	width: 100%;
+	font-size: 35px;
+	color: #FFF;
+	line-height: 80px;
+	display: block;
+	transition: all 0.9s ease 0s;
+}
+
+.animation {
+	font-size: 30px;
+	display: inline-block;
+	color: #7385e8;
+}
+
+.servie-box h3 {
+	margin-top: 5px;
+	text-transform: uppercase;
+	color: #8C8787;
+	transition: all 0.5s ease 0s;
+}
+
+.servie-box p {
+	margin: 10px 0;
+	color: #7f8c8d;
+}
+
+.servie-box a {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #7385e8;
+	padding: 5px 12px;
+	font-size: 12px;
+	font-style: italic;
+	transform: translateY(60%);
+	display: inline-block;
+	transition: all 0.2s ease 0s;
+}
+
+.servie-box:hover a {
+	transform: translateY(0%);
+	background-color: #7385e8;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.servie-box:hover .servie-icon {
+	font-size: 50px;
+	color: #7385e8;
+}
+
+.servie-box:hover h3 {
+	color: #7385e8;
+	font-size: 20px;
+}
