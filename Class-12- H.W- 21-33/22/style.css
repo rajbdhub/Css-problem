@@ -1,0 +1,83 @@
+
+body {
+	margin: 0;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.main-menu {
+	background-color: #222f3e;
+}
+
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-menu ul li {
+	list-style: none;
+	//padding: 5px 15px;
+	transition: .25s;
+	position: relative;
+}
+
+.main-menu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	text-transform: capitalize;
+	font-family: Roboto;
+	display: block;
+	padding: 10px 15px;
+}
+
+.main-menu ul li:hover a {
+	background-color: #7f8fa6;;
+}
+
+.main-menu ul .active a {
+	background-color: #7f8fa6;
+} 
+/*============= Sub Menu =================*/
+
+.main-menu ul ul {
+	padding: 0;
+	display: none;
+	top: 100%;
+	left: 0;
+	min-width: 170px;
+	position: absolute;
+}
+
+.main-menu ul li:hover > ul {
+	display: block;
+}
+
+.main-menu ul ul li {
+	flex: none;
+}
+
+.main-menu ul ul li:hover a {
+	background-color: #222f3e;
+}
+
+
+/*============= Sub Sub Menu =================*/
+
+.main-menu ul ul ul {
+	top: 0;
+	left: 100%;
+	background-color: black;
+}
+
+.main-menu ul ul ul li {
+	color: white;
+	
+}
+
+.main-menu ul ul ul li:hover a {
+	background-color: #7f8fa6;
+}

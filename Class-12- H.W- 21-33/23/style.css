@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+.main-menu {
+	background-color: blue;
+}
+
+.main-menu ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-menu ul li {
+	list-style: none;
+	position: relative;
+
+	
+}
+
+.main-menu ul li a {
+	color: #FFF;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Roboto;
+	display: block;
+}
+
+.main-menu ul li:hover a {
+	background-color: black;
+	
+}
+
+/*=============Sub==================*/
+
+.main-menu ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 220px;
+	//background-color: red;
+	padding: 0;
+	display: none;
+
+}
+
+.main-menu ul li:hover > ul {
+	display: block;
+}
+
+.main-menu ul ul li {
+	float: none;
+}
+.main-menu ul ul li:hover a {
+	background-color: blue;
+}
+
+/*=============Sub==================*/
+
+.main-menu ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.main-menu ul ul ul li {}
+.main-menu ul ul ul li:hover a {
+	background-color: black;
+}
+
+/*=============Sub==================*/
+
+.main-menu ul ul ul ul li:hover a {
+	background-color: blue;
+}
+
+/*=============Sub==================*/
+
+
+.animation {
+	text-align: center;
+	margin-top: 300px;
+	animation: name 1s infinite;
+	font-size: 5px;
+}
+
+@keyframes name {
+	0% {
+		font-size: 10px;
+		color: transparent; 
+	}
+
+	100% {
+		font-size: 18px;
+		color: red;
+	}
+}
+
+
+
+
+
+
+
+

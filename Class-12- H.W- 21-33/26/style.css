@@ -1,0 +1,44 @@
+.main {
+	width: 800px;
+	margin: auto;
+}
+
+.main .test {
+	background-color: #78e08f;
+	padding: 10px 10px 0 0;
+	border-radius: 20px;
+}
+
+.main .test h2 {
+	background-color: #FFF;
+	margin: 0;
+	text-align: center;
+	border-bottom: 10px solid #f6b93b;
+	border-left: 10px solid #f6b93b;
+	border-radius: 20px;
+}
+
+.name {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 550px;
+	border-bottom: 15px solid #fa983a;
+	display: inline-block;
+	position: relative;
+}
+
+.name:after {
+	content: "";
+	display: block;
+	clear: both;
+	border-bottom: 15px solid red;
+	width: 50%;
+	position: absolute;
+	top: 100%;
+	transition: 1s;
+}
+
+.name:hover:after {
+	width: 100%;
+}
