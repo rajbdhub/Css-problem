@@ -23,7 +23,7 @@ Header-part
 }
 
 .header-area img {
-	width: 50px;
+	width: 60px;
 }
 
 .header-area h2 {
@@ -161,8 +161,8 @@ My Work=========
 }
 
 .col-imagesbox .image-text img {
-	height: 270px;
-	width: 270px;
+	height: 265px;
+	width: 265px;
 }
 
 .col-imagesbox .image-text h4 {
@@ -188,22 +188,47 @@ My Work=========
 .btn a {
 	background-color: #7b77c9;
 	color: #FFF;
-	padding: 10px 15px;
+	padding: 10px 25px;
 	border-radius: 3px;
 	font-size: 15px;
 	text-transform: capitalize;
 	border: 1px solid #7b77c9;
 	text-decoration: none;
-
 }
 
+/*============
+Photography=========
+*/
 
+.photography {
+	background: url(images/bg-2.png);
+}
 
+.row-3 {
+	box-sizing: border-box;
+}
 
+.row-3 .row-1 img {
+	height: 265px;
+	width: 265px;
+	padding: 8px 8px;
+	display: inline-block;
+}
 
+.photography h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 60px 0 0 20px;
+}
 
+.photography p {
+	color: #888a8b;
+	text-align: center;
+	padding: 10px 150px;
+}
 
-
-
-
-
+.photography .btn {
+	padding: 50px 0;
+}
